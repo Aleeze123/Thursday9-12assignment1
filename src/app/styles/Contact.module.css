@@ -1,0 +1,54 @@
+.contactContainer {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 100px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    min-height: 80vh; 
+    background-color: #def7ff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.heading {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+}
+
+.description {
+    font-size: 1.2rem; 
+    margin-bottom: 2rem; 
+}
+
+.contactList {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.contactLink {
+    display: flex; 
+    align-items: center; 
+    margin: 10px 0; 
+    text-decoration: none; 
+    color: #333; 
+    transition: color 0.3s; 
+}
+.icon {
+    margin-right: 8px; 
+    font-size: 1.5rem; 
+}
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem; 
+    }
+    .contactLink {
+        font-size: 0.9rem; 
+    }
+}
